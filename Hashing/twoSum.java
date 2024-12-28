@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class twoSum{
-    static boolean twoSum(int arr[], int target) {
+    static boolean twoSumFind(int arr[], int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for(int i = 0 ; i < arr.length ; i++){
             int val = target - arr[i];
@@ -13,6 +13,6 @@ public class twoSum{
     public static void main(String[] args) {
         int[] arr = {1, 4, 45, 6, 10, 8};
         int target = 16;
-        System.out.println(twoSum(arr, target));
+        System.out.println(twoSumFind(arr, target));
     }
 }
