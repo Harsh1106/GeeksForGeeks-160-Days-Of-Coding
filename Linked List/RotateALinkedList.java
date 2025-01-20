@@ -41,7 +41,7 @@ public class RotateALinkedList {
         }
 
         head = rotate(head, k);
-
+    
         System.out.println("\nReversed Linked List:");
         temp = head;
         while(temp != null){
